@@ -1,0 +1,53 @@
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+    --third-color: #1a252f;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+.bg-second {
+    background-color: var(--second-color);
+}
+
+.bg-third {
+    background-color: var(--third-color);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.text-second {
+    color: var(--second-color);
+}
+
+nav {
+    transition: padding 0.5s ;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link{
+    width: fit-content;
+}
+
+
+.footer {
+    padding: 40px;
+}
+
+.footer .card {
+    border: none;
+    border-radius: 0;
+}
+
+.icon {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}

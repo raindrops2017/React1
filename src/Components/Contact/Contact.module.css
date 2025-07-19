@@ -1,0 +1,16 @@
+.formLabel {
+    transition: .6s top;
+}
+.labelTop {
+    top: 40px !important;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.submit:hover{
+    background-color: var(--main-color);
+    color: white;
+}
